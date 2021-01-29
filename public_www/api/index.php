@@ -1,9 +1,9 @@
 <?php
 
-require_once "../../../task/models/UserAction.php";
-require_once "../../../task/settings.php";
+require_once "../task/models/UserAction.php";
+require_once "../task/settings.php";
 
-$config = require("../../../task/db/config.php");
+$config = require("../task/db/config.php");
 
 if( strtolower($_SERVER["HTTP_HOST"]) === ALLOWED_HOST )
 {

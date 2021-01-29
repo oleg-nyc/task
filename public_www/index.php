@@ -1,4 +1,4 @@
 <?php
-define('PATH', '../../task/');
+define('PATH', '../task/');
 require_once PATH . "controller.php";
 ?>
